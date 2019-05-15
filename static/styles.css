@@ -1,0 +1,166 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Assistant', sans-serif;
+}
+.nav-bar {
+    background-color: #12130F;
+    padding: 8px;
+}
+
+.layout-interface {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* media query here */
+}
+#__next,.app {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.layout-component {
+    width: 100%;
+}
+.layout-main {
+    height: 100%;
+}
+.nav-bar {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar-element {
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-bar-element>i {
+
+    margin-bottom: 2px;
+    
+}
+.nav-bar-active {
+    background-color: rgba(188, 216, 193, 0.6);
+    border-radius: 4px;
+}
+.layout-card {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 66, 66);
+}
+
+.card-set {
+    margin: 10px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.layout-header-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.layout-header-item>h1 {
+    margin: 0px;
+}
+.layout-card>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.3) 24%, rgba(0,0,0,0) 100%);
+}
+.flex-spacer {
+    height: 100%;
+    width: 100%;
+}
+.card-metadata {
+    padding: 10px;
+}
+.card-metadata>h2 {
+    margin: 0px;
+}
+.layout-component {
+    overflow: hidden;
+}
+.layout-main {
+    overflow: scroll;
+}
+.layout-inner-searchtab {
+    margin: 10px !important;
+}
+.searchbar-container {
+    width: 100%;
+    display: flex;
+    margin-right: 10px;
+    
+}
+.searchbar-container>* {
+    margin: 5px;
+}
+.searchbar-container>input {
+    width: 100%;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px dotted white;
+    color: white;
+    font-size: 14px;
+}
+.searchbar-container>input:focus {
+    outline: 0;
+    border-bottom: 2px solid white;
+}
+.trending-container {
+    text-align: center;
+}
+.trending-container>ol {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.trending-container {
+    margin-top: 50%;
+}
+.trending-container>h3 {
+    margin: 0px;
+}
+
+@media only screen and (min-width: 700px) {
+    .layout-interface {
+        flex-direction: row-reverse;
+    }
+    .nav-bar {
+        flex-direction: column;
+        height: 100% !important;
+        min-width: 150px;
+        background-color: none;
+    }
+    .card-set {
+        flex-direction: row;
+    }
+    .layout-card {
+        margin-right: 10px;
+    }
+    nav {
+        background-color: #12130F;
+    }
+    .nav-bar-element {
+        flex-direction: row;
+        padding: 15px;
+    }
+    .nav-bar-element>i {
+        padding-right: 10px;
+    }
+}

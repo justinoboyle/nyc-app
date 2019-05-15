@@ -1,0 +1,38 @@
+<div class="tab-featured">
+<div class="layout-header-item">
+    <h1>Featured</h1>
+</div>
+    <div class="card-set">
+            <div class="layout-card" style="background-image: url(https://blog.justinoboyle.com/content/images/2019/05/cover-1.png);">
+                <div>
+                    <div class="flex-spacer"></div>
+                    <div class="card-metadata">
+                        <span>$$ ★★★★ (3.2)</span>
+                        <h2>Shanghai Heiping</h2>
+                        <span>Chinatown, Mn • Chinese Eatery</span>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-card" style="background-image: url(https://blog.justinoboyle.com/content/images/2019/05/IMG_20190414_174729.jpg);">
+                <div>
+                    <div class="flex-spacer"></div>
+                    <div class="card-metadata">
+                        <span>$ ★★★★ (4.3)</span>
+                        <h2>2 Bros Pizza</h2>
+                        <span>Bowery, Mn • Pizza Parlor</span>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-card" style="background-image: url(https://blog.justinoboyle.com/content/images/2019/04/IMG_20190330_145811.jpg);">
+                <div>
+                    <div class="flex-spacer"></div>
+                    <div class="card-metadata">
+                        <span>$ ★★★★ (4.3)</span>
+                        <h2>KX Burger Bar</h2>
+                        <span>Astoria, Qs • Pizza Parlor</span>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-card"></div>
+    </div>
+</div>
